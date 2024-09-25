@@ -1,50 +1,11 @@
-# React + TypeScript + Vite
+# Aptospace
+APTOSPACE is a premier NFT marketplace on the APTOS blockchain, designed for buying, selling, and trading a diverse range of digital assets, including art, music, and collectibles.
+- Behance: https://www.behance.net/gallery/205079377/NFT-Marketplace-Website
+- Youtube: https://www.youtube.com/watch?v=Bgxbe9sg7x0
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![map-01](https://github.com/user-attachments/assets/b316240c-0e11-424d-ad91-6d7bddeb4298)
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
-
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
-
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
-
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
-
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+It enables users to mint their own NFTs, supports various cryptocurrency wallets, and ensures the security and
+authenticity of digital assets through advanced blockchain technology. With robust search and discovery features, APTOSPACE makes it easy to
+explore new and trending NFTs. Additionally, it supports creator royalties, allowing original creators to earn from secondary sales, fostering a thriving
+community of artists and collectors.
